@@ -2,7 +2,7 @@ import ClothingSlide from './components/ClothingSlide';
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex overflow-hidden">
       <ClothingSlide title="Male" background="bg-male">
         <ul>
           <li>Coats</li>
