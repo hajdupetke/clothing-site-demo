@@ -2,25 +2,10 @@ import ClothingSlide from './components/ClothingSlide';
 
 function App() {
   return (
-    <div className="flex overflow-hidden">
-      <ClothingSlide title="Male" background="bg-male">
-        <ul>
-          <li>Coats</li>
-          <li>T-shirts</li>
-        </ul>
-      </ClothingSlide>
-      <ClothingSlide title="Female" background="bg-female">
-        <ul>
-          <li>Coats</li>
-          <li>T-shirts</li>
-        </ul>
-      </ClothingSlide>
-      <ClothingSlide title="Kids" background="bg-kid">
-        <ul>
-          <li>Coats</li>
-          <li>T-shirts</li>
-        </ul>
-      </ClothingSlide>
+    <div className="flex flex-col overflow-hidden md:flex-row lg:flex-row">
+      <ClothingSlide title="Male" background="bg-male" />
+      <ClothingSlide title="Female" background="bg-female" />
+      <ClothingSlide title="Kids" background="bg-kid" />
     </div>
   );
 }
